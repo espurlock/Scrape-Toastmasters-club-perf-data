@@ -270,7 +270,9 @@ def process_file_list(files, root, prog_year, month, output_filename):
 
 if __name__ == '__main__':
 
-    # make sure the log file directory exists
+    # make sure the output and log file directories exist
+    if not os.path.exists(f"./CSVs/"):
+        os.makedirs(f"./CSVs")
     if not os.path.exists(f"./LOGS/PROBLEM_HTMLs/"):
         os.makedirs(f"./LOGS/PROBLEM_HTMLs/")
 
