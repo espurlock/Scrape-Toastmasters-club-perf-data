@@ -278,7 +278,7 @@ if __name__ == '__main__':
 
     # get the HTML file or directory containing HTML files: 
     html_src = ''
-    while not os.path.exists(html_src):
+    while not os.path.exists(html_src)
         try:
             html_src = sys.argv[1]
             assert os.path.exists(html_src)
@@ -327,6 +327,6 @@ if __name__ == '__main__':
                     process_file_list(files, root, prog_year, month, output_filename)
 
     else:
-        print("Invalid HTML source directory or file:\n  {html_src}")
+        print(f"Invalid HTML source directory or file:\n  {html_src}")
         print("Please try again with a valid HTML source directory or file")
         exit()
