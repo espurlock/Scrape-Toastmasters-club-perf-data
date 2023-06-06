@@ -5,5 +5,7 @@ scripts/
 /HTML
 /HTML-old
 /LOGS
+/DEV
+/HTML_zipfiles
 pyvenv.cfg
 launchpad.html
