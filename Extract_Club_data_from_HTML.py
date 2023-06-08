@@ -278,7 +278,7 @@ if __name__ == '__main__':
 
     # get the HTML file or directory containing HTML files: 
     html_src = ''
-    while not os.path.exists(html_src)
+    while not os.path.exists(html_src):
         try:
             html_src = sys.argv[1]
             assert os.path.exists(html_src)
