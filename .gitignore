@@ -7,5 +7,7 @@ scripts/
 /LOGS
 /DEV
 /HTML_zipfiles
+/DB
 pyvenv.cfg
 launchpad.html
+scratch.py
